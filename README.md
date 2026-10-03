@@ -1,24 +1,20 @@
 # ⚡ C++ System Metrics Scanner
 
-A lightweight, cross-platform command-line tool written in C++ that scans system metrics, environment state, and active process routines.
+A lightweight command-line tool written in C++ that scans system metrics, execution state, and active process routines. Built and tested with Visual Studio 2022.
 
 ## 🚀 Features
-- 🖥️ **System Environment Check:** Identifies execution state and OS platform.
+- 🖥️ **System Environment Check:** Identifies execution state and Windows OS environment.
 - 🔍 **Process Routine Inspection:** Monitors process tables and execution states.
 - ⚡ **Lightweight & Fast:** Standard C++ library implementation with zero external dependencies.
 
 ## 🛠️ Tech Stack
 - **Language:** C++11 / C++17
-- **Compiler:** g++ / clang++
+- **IDE/Compiler:** Visual Studio 2022 (MSVC)
 
-## 📦 Build & Run
+## 📦 Build & Run (Visual Studio 2022)
 
 1. Clone the repository:
 git clone https://github.com/westrox1337/cpp-sys-scanner.git
-cd cpp-sys-scanner
 
-2. Compile the code:
-g++ main.cpp -o sys_scanner
-
-3. Run the executable:
-./sys_scanner
+2. Open `main.cpp` or the solution file in **Visual Studio 2022**.
+3. Press `Ctrl + F5` or click **Start Without Debugging** to compile and run.
